@@ -1,9 +1,10 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RhYWphIiwiaWQiOiI1YzZhYTY2MjcwZTkzOTdhMzhjZGNjOGYiLCJpYXQiOjE1NTA1MDczODR9.K01jM1FRr7s-tI0wHSa1nbHNuqgKcSv0BgxOXZp_8ZM
 
 {
-  "title": "From 1,000,000 to Graham's Number",
+  "title": "How to Pick a Career (That Actually Fits You)",
   "author": "Tim Urban",
-  "url": "https://waitbutwhy.com/2014/11/1000000-grahams-number.html",
+  "url": "https://waitbutwhy.com/2018/04/picking-career.html",
   "likes": 0
 }
